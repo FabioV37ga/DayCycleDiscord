@@ -1,0 +1,17 @@
+/**
+ * @name DayCycleDiscord
+ * @author v37ga
+ * @version 1.3.0
+ * @description Required theme for the DayCycleDiscord plugin.
+ * @website https://FabioV37ga.github.io/DayCycleDiscord/
+ * @source https://github.com/FabioV37ga/DayCycleDiscord/
+*/
+
+@import url('https://github.com/FabioV37ga/DayCycleDiscord/src/base.css');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rajdhani:wght@300&display=swap');
+
+/* Variables */
+:root {
+    --bkgcolor: rgba(13,13,13,0.1) !important;
+    --detail: transparent;
+}
