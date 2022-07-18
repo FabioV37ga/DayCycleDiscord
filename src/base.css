@@ -13,7 +13,6 @@
     background-color: transparent !important
 }
 body {
-    background-image: var(--image) !important;
     background-size: cover !important;
     background-position: center !important;
     position: relative !important;
