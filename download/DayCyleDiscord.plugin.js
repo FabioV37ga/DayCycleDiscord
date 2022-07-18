@@ -28,7 +28,7 @@
       static setPeriodo() {
         if (this.hora_atual >= 6 && this.hora_atual < 12) this.periodo_atual = "manha";
         else if (this.hora_atual >= 12 && this.hora_atual < 18) this.periodo_atual = "tarde";
-        else if (this.hora_atual >= 18) this.periodo_atual = "noite";
+        else if (this.hora_atual >= 18 || this.hora_atual < 6) this.periodo_atual = "noite";
         Janela.atualizar()
       }
 
@@ -47,7 +47,7 @@
 
 
     class Janela {
-      static fundo = document.querySelector('body');
+      static fundo = document.querySelector('body'); 
       static periodo_anterior = "";
 
       static atualizar() {
