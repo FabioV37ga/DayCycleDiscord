@@ -10,7 +10,7 @@
  * @source https://github.com/FabioV37ga/DayCycleDiscord/
  */
 
- module.exports = class DayCycleDiscord {
+module.exports = class DayCycleDiscord {
   load() { }
 
   start() {
@@ -47,7 +47,7 @@
 
 
     class Janela {
-      static fundo = document.querySelector('body'); 
+      static fundo = document.querySelector('body');
       static periodo_anterior = "";
 
       static atualizar() {
@@ -57,7 +57,7 @@
 
           switch (this.periodo_anterior) {
             case "manha":
-              Janela.fundo.style = `background-image: url(${imagemManha}) !important)`
+              Janela.fundo.style = `background-image: url(${imagemManha}) !important`
               break;
             case "tarde":
               Janela.fundo.style = `background-image: url(${imagemTarde}) !important`
@@ -75,7 +75,7 @@
     Relogio.getHorario()
     Relogio.temporizador()
     console.log(`[DAYCYCLEDISCORD]\n → Horário Atual ${Relogio.hora_atual}\n → Período Atual: ${Relogio.periodo_atual}`)
-    
+
 
   }
   stop() { }
